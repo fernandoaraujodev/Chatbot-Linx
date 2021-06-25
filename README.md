@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="" title="" src=".github/rocketq.png" width="220px" />
+  <img alt="Squad Xeque-code responsável pelo projeto" title="Squad Xeque-code" src=".github/logo-gp5XequeCode.png" width="220px" />
 </h1>
 
 ## 💻 Projeto
@@ -20,4 +20,4 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/mDkIOyN4KCwz36k3QlVsX1/Linx---Prototipa%C3%A7%C3%A3o?node-id=0%3A1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-Mesmo seguindo os passos você não consegue visualizar o protótipo de alta fidelidade? ...
+<br>Mesmo seguindo os passos você não consegue visualizar o protótipo de alta fidelidade? ...
