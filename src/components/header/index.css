@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --roxo: #6A3A7C;
+
+}
+
+.botaoStyle {
+    border-style: none;
+
+}
+
+.tamIcon {
+    font-size: 2.9em;
+    background-color: none;
+    color: var(--principal);
+}
+
+#openMenu button {
+    background-color: var(--roxo);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: none !important;
+}
+
+.logoLinxHeader img {
+    width: 140px;
+}
+
+.header01 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--roxo);
+}
+
+.header02 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--roxo);
+}
+
+.linksHeader {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linksHeader a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.linksHeaderMobile {
+    display: none;
+}
+
+.linksHeader a:hover {
+    color: white;
+
+}
+
+.headerImgLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.buttonHeader button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.dropdownConteudo {
+    display: none;
+    position: absolute;
+    background-color: var(--roxo);
+    min-width: 160px;
+text-align: start;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdownConteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.dropdownConteudo a {
+    margin: 10px;
+
+}
+
+@media (max-width: 700px) {
+    #openMenu button {
+        background-color: var(--roxo);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none !important;
+    }
+
+    .linksHeaderMobile {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .linksHeader {
+        display: none;
+    }
+
+    .hover {
+        display: flex;
+        width: 100%;
+
+        border-bottom-color: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .hoverMobile {
+        width: 200px;
+        color: var(--principal);
+        font-weight: 500;
+        padding-bottom: 5px;
+        padding-right: 15px;
+
+        font-size: 17px;
+    }
+
+    .hover:hover {
+        border-bottom-width: 0px;
+
+        border-width: 3px;
+        color: var(--white);
+        border-color: var(--principal);
+        border-style: solid;
+        transition: border-width 0.2s, stroke-dashoffset 1s, stroke-dasharray 1s;
+    }
+
+    #idDivMenu {
+        display: none;
+        width: 100%;
+    }
+
+    .navMobile {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .navMobile a {
+        color: white;
+        margin-bottom: 20px;
+        padding: 0px 10px 0 10px;
+        text-align: start;
+        
+    }
+
+}

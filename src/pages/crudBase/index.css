@@ -1,0 +1,74 @@
+.tituloBase{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixaCrud{
+    background-color: #E5E5E5;
+    box-shadow: 0 4px 4px -2px #989898; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 80%;
+    position: relative;
+    border-radius: 10px;
+}
+.formBase{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.inputCRUD{
+    width: 60%;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px -2px #989898; 
+}
+.inputCRUD::placeholder{
+    padding-left: 20px;
+
+}
+.botoes{
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 0;  
+}
+.submit1{
+    display: block;
+    background-color: var(--roxo);
+    color: white;
+    width: 95%;
+    padding: 10% 2%;
+    font-size: 17px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 4px 4px -2px #989898; 
+    margin-top: 80px;
+}
+@media only screen and (max-device-width: 800px) {
+    .inputCRUD{width: 95%;}
+    .botoes{  
+        position: relative; 
+        width: 40%; 
+        margin-top: 40px;
+    }
+    .submit1{
+        margin-top: 25px;
+        margin-bottom: 35px;
+        width: 100%;      
+    }
+
+}

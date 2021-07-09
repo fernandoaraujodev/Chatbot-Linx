@@ -1,0 +1,160 @@
+:root {
+    --roxo: #6A3A7C;
+
+}
+  
+  .totalFooter {
+    display: flex;
+    background-color: var(--roxo);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+    
+  }
+  
+  .developed {
+    background-color: var(--roxo);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 25px;
+  }
+  
+  .developed a {
+    color: white;
+    text-decoration: none
+  }
+  
+  .content {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    max-width: 1440px;
+  
+    flex-direction: row;
+  }
+  .redesSociaisFooter{
+      margin: 10px;
+      font-size: 20px;
+  }
+  .redesSociaisFooter a{
+    margin-left: 10px;
+}
+  .developed02 {
+    color: white;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    border-bottom-width: 3px;
+    border-bottom-color: var(--principal);
+    border-bottom-style: solid;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+  
+  }
+  
+  .developed02:hover {
+    border-bottom-width: 0px;
+  
+    border-width: 3px;
+    color: white;
+    border-color: var(--principal);
+    border-style: solid;
+    transition: border-width 0.2s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  }
+  
+  .cardFooterLinks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .cardFooterLinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+  
+  }
+  .cardFooterContentLinks  {
+    align-items: flex-end;
+
+}
+  .cardFooterContentLinks  a{
+    text-align: end;
+
+  }
+  .cardFooterLinks a:hover {
+    opacity: 70%;
+    transition: opacity 0.2s;
+  }
+  
+  .cardFooterSocial img {
+    width: 40px;
+    margin: 10px;
+  }
+  .cardFooterSocial img:hover {
+    opacity: 60%;
+  
+  }
+  
+  .cardFooterImg  {
+    width: 9em;
+    height: 9em;
+  
+  }
+  .cardFooterImg img {
+    width: 9em;
+    height: 9em;
+  
+  }
+  .cardFooterMobile {
+    display: none;
+  }
+  
+  @media (max-width: 800px) {
+    .content {
+      flex-direction: column-reverse;
+    }
+  
+    .cardFooterLinks {
+      margin-top: 0;
+  
+      margin-bottom: 30px;
+    }
+    .cardFooterSocial  {
+      margin-bottom: 30px;
+    }
+    .cardFooterSocial img {
+      width: 40px;
+      margin-top: 30px;
+    }
+  
+    .developed {
+      padding: 20px;
+    }
+  
+    .cardFooter {
+      padding: 30px;
+    }
+  
+    .cardFooterMobile {
+      display: flex;
+    }
+  
+    .cardFooter  {
+  display: none
+    }
+    .cardFooterMobile img {
+      width: 17em;
+      margin-top: 20px;
+    }
+  }

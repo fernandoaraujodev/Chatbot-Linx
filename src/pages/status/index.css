@@ -1,0 +1,106 @@
+.tituloStatus{
+    font-weight: 500;
+    font-size: 33px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wifiIcon{
+    margin-left: 20px;
+}
+.fundoStatus{
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+    background-color: #E1E0E0;
+}
+.caixasStatus{
+    width: 50%;
+    border-radius: 10px;  
+    display: inline-block;
+}
+.check{
+    float: left;
+    margin-right: 20px;
+}
+.status{
+    height: 30%;  
+    padding-top: 38px;
+    font-size: 18px;
+    padding-bottom: 38px;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px -2px #989898;
+}
+.statusCards{   
+    height: 20px;  
+    margin-top: 3%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px -2px #989898;
+}
+.guiaStatus{
+    height: 20%;
+    width: 30%;   
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: white;  
+    float: right;
+    padding: 40px;
+    box-shadow: 0 3px 4px -2px #989898;
+}
+.itemStatus{
+    padding: 15px;
+}
+.normal{
+    float: left;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#22ff00d0;
+}
+.limitado{
+    float: left;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 0, 0.829);
+}
+.parado{
+    float: left;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:rgba(255, 0, 0, 0.836);
+}
+.divMainStts{
+    background-color:#E1E0E0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.paddingH1{
+    padding: 30px;
+}
+@media only screen and (max-device-width: 960px){
+    .fundoStatus{
+        padding: 5%;
+    }
+    .guiaStatus{
+        padding: 0;
+        margin-top: 7%;
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    .caixasStatus{
+        width: 100%;
+    }
+}

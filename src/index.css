@@ -1,0 +1,32 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+
+}
+:root {
+  --roxo: #6A3A7C;
+  --laranja: #FF9900;
+  --cinza: #E5E5E5;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.posicionamento{
+  width: 85%;
+  max-width: 1440px;
+
+}
+a{
+  text-decoration: none
+}
+button{
+  border: none;
+  background-color: white;
+}
+.outlined{
+  outline: none;
+}

@@ -1,0 +1,201 @@
+.totalSuporte{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudoSuporte1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tituloAreaCliente{
+    height: 20%;
+    display: flex;
+}
+.tamanhoPortal{
+    width: 17%;
+}
+.loginTotal{
+    width: 25%;
+}
+.loginSuporte{
+    font-size: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+}
+.inputSuporte{
+    width: 100%;
+    height: 30px;
+    border: 0;
+    padding: 10px 0 10px 10px;
+    border-radius: 9px;
+    box-shadow: 0 4px 4px -2px #989898;
+    background-color: #E1E0E0;
+    font-size: 20px;
+}
+.centerSuporte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.butaoSuporte{
+    width: 38%;
+    height: 40px;
+    margin-top: 15px;
+    background: rgb(249, 30, 35);
+    background: linear-gradient(45deg, rgba(249, 30, 35, 1) 0%, rgba(252, 80, 43, 1) 50%, rgba(255, 148, 50, 1) 100%);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.suporteAtendimento{
+    width: 100%;
+    background-color: #EBEBEB ;   
+}
+.guiaSuporte{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.exemploChat img{
+    width: 320px;
+    height: 570px;
+}
+.blocosSuporte1{
+    display: block;
+    width: 35%;
+    margin-bottom: 40px;
+}
+.blocosSuporte1 li{
+    list-style:disc;
+}
+.bloco1{
+    font-size: 19px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0 4px 4px -2px #989898;    
+}
+.conteudo2Suporte{
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo2Suporte img{
+    width: 50px;
+    height: 50px; 
+}
+.botaoSuporte2{
+    width: 30%;
+    height: 40px;
+    margin-top: 15px;
+    background: rgb(249, 30, 35);
+    background: linear-gradient(45deg, rgba(249, 30, 35, 1) 0%, rgba(252, 80, 43, 1) 50%, rgba(255, 148, 50, 1) 100%);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 35%;
+}
+.titulosSuporte{
+    padding: 40px 40px 40px 40px;
+}
+.duvidasconteudo3{
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 8%;
+    justify-content: center;
+}
+.guiaDuvidas{
+    width: 23%;
+    margin-top: 40px;
+}
+.guiaDuvidas-titulo{
+    display: flex;
+    align-items: center;
+}
+.blocoDuvidas3{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px -1px #818080; 
+    padding: 30px 30px 30px 30px;
+}
+.blocofaq3{
+    display: flex;
+    justify-content: space-between;
+}
+.blocofaq3 img{
+    width: 50px;
+    height: 50px;
+}
+.botaoduvidas{
+    width: 30%;
+    height: 40px;
+    background: rgb(249, 30, 35);
+    background: linear-gradient(45deg, rgba(249, 30, 35, 1) 0%, rgba(252, 80, 43, 1) 50%, rgba(255, 148, 50, 1) 100%);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 35%;
+}
+@media (max-width: 900px) {
+    .margensSuporte{
+        margin: 40px 40px 40px 40px;
+    }
+    .conteudoSuporte1{
+        display: block;
+    }
+    .tituloAreaCliente{
+        text-align: center;
+        display: block;
+    }
+    .tituloAreaCliente img{
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+    .tamanhoPortal{
+        width: 100%;
+    }
+    .loginTotal{
+        width: 100%;
+    }
+    .margensAtendimento{
+        margin: 30px 30px 30px 30px;
+    }
+    .exemploChat img{
+        display: none;
+    }
+    .blocosSuporte1{
+        width: 100%;
+    }
+    .margensConteudo3{
+        margin: 40px 40px 40px 40px;
+    } 
+    .titulosSuporte{
+        padding: 20px 10px;
+    }
+    .duvidasconteudo3{
+        margin-top: 30px;
+        display: block;
+        width: 100%;
+        justify-content: none;
+    }
+    .guiaDuvidas{
+        width: 100%;
+    }
+    .blocoDuvidas3{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px;
+        padding: 0px 0px 0px 0px;
+        box-shadow: none; 
+    }  
+}

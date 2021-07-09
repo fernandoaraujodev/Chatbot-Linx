@@ -1,0 +1,196 @@
+.divPesquisaFrequentes {
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    margin: 0;
+    width: 100%;
+
+}
+.divPesquisaFrequentes {
+    background-color: white;
+    height: 70px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.divPesquisaFrequentes input {
+    width: 80%;
+    border: none;
+    height: 100%;
+    font-size: 20px;
+    padding: 0 0;
+    font-weight: 100;
+}
+
+.divPesquisaFrequentes input::focus {
+    border: none;
+}
+
+.divPesquisaFrequentes input::placeholder {
+    color: grey;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.divPesquisa01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 40px 0 20px 0;
+}
+.openDescricao{
+    display: none;
+    width: 100%;
+    background-color: white;
+    border-radius: 0  0 10px 10px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    flex-direction: column;
+
+}
+#criacaoDuvidas{
+    text-align: start;
+    padding-top: 10px;
+}
+.openDescricao p{
+    padding: 50px;
+    text-align: justify;
+}
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center h1 {
+    padding: 30px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.filtro {
+    margin-left: 20px;
+    background-color: #E1E0E0;
+
+}
+.divInfoDuvidas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+.background {
+    width: 100%;
+    background-color: #E1E0E0;
+}
+
+.faqDuvidas {
+    margin-top: 40px;
+
+}
+
+.buttonDuvidas
+    ,
+.faqDuvidas button {
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+
+}
+
+.faqDuvidas h2 {
+    font-weight: 400;
+    font-size: 35px;
+    padding: 20px;
+    text-align: start;
+}
+
+.faqDuvidas button h5 {
+
+    font-size: 25px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.faqDuvidas button h6 {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: start;
+}
+
+.faqRow {
+    display: flex;
+}
+
+.faqRow div {
+    margin-left: 20px;
+}
+.tamIconArrow{
+    font-size: 50px;
+    color: black;
+}
+.tamIconPerson{
+    font-size: 60px;
+    color: black;
+}
+
+.Chatbot{
+  display: block;
+  z-index: 999;
+  position: fixed;
+  transform-origin: right bottom;
+}
+
+@media (max-width: 900px) {
+
+    .divPesquisaFrequentes {
+
+        width: 80%;
+
+    }
+
+    .divPesquisaFrequentes input {
+        width: 100%;
+
+    }
+    .faqDuvidas button{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        height: 100%;
+    }
+    .faqRow{
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .tamIconArrow{
+        font-size: 50px;
+    }
+    .tamIconPerson{
+        display: none;
+    }
+
+}

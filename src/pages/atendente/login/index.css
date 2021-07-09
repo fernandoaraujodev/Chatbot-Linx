@@ -1,0 +1,220 @@
+.login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerLogin {
+    width: 80%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 47px;
+    height: auto;
+}
+
+.loginPosicao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    background-color: #e1e0e0;
+    padding-bottom: 20px;
+}
+.btn{
+    width:100%;
+    height:50px
+}
+.botaoLogar {
+    width: 100%;
+    background: rgb(249, 30, 35);
+    background: linear-gradient(45deg, rgba(249, 30, 35, 1) 0%, rgba(252, 80, 43, 1) 50%, rgba(255, 148, 50, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 420px;
+    border-radius: 10px;
+}
+
+.botaoLogar p {
+    padding: 15px;
+}
+
+.inputLogin {
+    width: 100%;
+    border: 0;
+    padding: 20px 0 20px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: #E1E0E0;
+    max-width: 400px;
+    font-size: 20px;
+
+}
+
+input::placeholder {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.labelInputForm {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+    flex-direction: column;
+}
+
+label {
+    color: grey;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form01 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 40px;
+
+}
+
+.form01 h1 {
+    font-weight: 500;
+    color: grey;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: start;
+}
+
+.form02 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    width: 85%;
+}
+
+.esqueceuSenha {
+    margin-top: 10px;
+}
+
+#imagemLogin {
+    height: 200px;
+    border-right: 1px solid rgb(186, 186, 186);
+    padding: 90px;
+    margin-right: 60px;
+    width: auto;
+    border-radius: 0;
+
+}
+
+#imagemLogin img {
+    height: 200px;
+    width: auto;
+    border-radius: 0;
+
+}
+
+#logoLinx {
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    height: 100px;
+    width: auto;
+    border-radius: 0;
+
+
+}
+
+#logoLinx img {
+
+
+    height: 100px;
+    width: auto;
+    border-radius: 0;
+
+}
+
+.botaoLogar p {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+
+    #imagemLogin {
+        height: 17em;
+        margin-right: 0;
+
+    }
+
+    #imagemLogin img {
+        height: 17em;
+
+    }
+
+
+
+}
+
+@media (max-width: 900px) {
+    input::placeholder {
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .containerLogin {
+        width: 90%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    #imagemLogin {
+
+        border-right: 0px solid rgb(186, 186, 186);
+
+    }
+
+}
+
+@media (max-width: 400px) {
+
+
+
+    #imagemLogin {
+        height: 10em;
+        margin-right: 0;
+        padding: 40px;
+
+    }
+    .containerLogin{
+        padding-bottom:20px;
+        padding-top:0;
+        margin: 20px 0 20px 0
+
+    }
+    #imagemLogin img {
+        height: 10em;
+
+    }
+    .form01{
+        width: 90%;
+    }
+
+
+}
