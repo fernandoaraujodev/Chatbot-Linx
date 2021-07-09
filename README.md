@@ -21,3 +21,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/mDkIOyN4KCwz36k3QlVsX1/Linx---Prototipa%C3%A7%C3%A3o?node-id=0%3A1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 <br>Mesmo seguindo os passos você não consegue visualizar o protótipo de alta fidelidade? ...
+
+## 🔗 Sistema
+
+Espero que goste! [Chatbot-Linx](https://chatbotlinx-5c927.web.app/)
